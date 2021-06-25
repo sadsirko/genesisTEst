@@ -1,0 +1,22 @@
+{
+  "name": "webapi",
+  "version": "1.0.0",
+  "description": "test task for genesis",
+  "main": "index.js",
+  "scripts": {
+    "test": "testweb"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sadsirko/genesisTEst.git"
+  },
+  "author": "sadsirko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sadsirko/genesisTEst/issues"
+  },
+  "homepage": "https://github.com/sadsirko/genesisTEst#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
