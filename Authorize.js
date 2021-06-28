@@ -3,8 +3,6 @@ const handleAuthorithation =(jsonDataFromUser,dataFromStorage)=>{
 
     let jsonDataFromStorage = JSON.parse(dataFromStorage); 
 
-    // console.log(jsonDataFromUser);
-    // console.log(jsonDataFromStorage);
     let loginIndex = jsonDataFromStorage.userLogin.indexOf(jsonDataFromUser.login)
     if (loginIndex !== -1){
         if(jsonDataFromUser.password === jsonDataFromStorage.userPassword[loginIndex]){
